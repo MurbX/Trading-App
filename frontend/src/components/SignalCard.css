@@ -1,0 +1,188 @@
+.signal-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border-color);
+  border-radius: 12px;
+  padding: 25px;
+  box-shadow: 0 2px 8px var(--shadow);
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.signal-header {
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.signal-header h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+  color: var(--text-primary);
+}
+
+.signal-price {
+  font-size: 32px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.price-change {
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.strength-badge {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 11px;
+  font-weight: 700;
+  color: white;
+  letter-spacing: 0.5px;
+}
+
+.signal-main {
+  border: 3px solid;
+  border-radius: 12px;
+  padding: 30px;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.signal-icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+}
+
+.signal-type {
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.signal-confidence {
+  margin: 25px 0;
+}
+
+.confidence-label {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--text-secondary);
+}
+
+.confidence-bar-container {
+  background-color: var(--bg-secondary);
+  height: 24px;
+  border-radius: 12px;
+  overflow: hidden;
+  margin-bottom: 8px;
+}
+
+.confidence-bar {
+  height: 100%;
+  transition: width 0.3s ease;
+  border-radius: 12px;
+}
+
+.confidence-value {
+  text-align: right;
+  font-weight: 600;
+  font-size: 16px;
+  color: var(--text-primary);
+}
+
+.signal-indicators {
+  background-color: var(--bg-secondary);
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+.signal-indicators h3 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: var(--text-primary);
+}
+
+.indicator-section {
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.indicator-section:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+.indicator-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  align-items: center;
+}
+
+.indicator-row:last-child {
+  border-bottom: none;
+}
+
+.indicator-label {
+  font-weight: 500;
+  color: var(--text-secondary);
+  font-size: 14px;
+}
+
+.indicator-value {
+  font-weight: 600;
+  color: var(--text-primary);
+  font-family: 'Courier New', monospace;
+  font-size: 14px;
+}
+
+.indicator-status {
+  font-size: 11px;
+  font-weight: 700;
+  margin-left: 8px;
+}
+
+.support-resistance {
+  background-color: var(--bg-primary);
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.support-resistance .resistance {
+  color: #ef4444;
+}
+
+.support-resistance .support {
+  color: #22c55e;
+}
+
+.forex-metrics {
+  background: linear-gradient(135deg, rgba(99, 102, 241, 0.05), rgba(139, 92, 246, 0.05));
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(99, 102, 241, 0.2);
+}
+
+.forex-metrics .indicator-row {
+  padding: 8px 0;
+}
+
+.forex-metrics .indicator-label {
+  font-weight: 600;
+}
+
+.signal-footer {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid var(--border-color);
+  text-align: center;
+  color: var(--text-secondary);
+}
